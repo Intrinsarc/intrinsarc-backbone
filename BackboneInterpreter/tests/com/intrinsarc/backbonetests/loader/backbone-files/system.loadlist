@@ -1,0 +1,13 @@
+load-list
+{
+    variables:
+        "BB" = "./tests/com/intrinsarc/backbonetests/loader/backbone-files";
+    directories:
+        "test" = "$BB/src/test",
+        "backbone" = "$BB/base/backbone",
+        "backbone :: implementation" = "$BB/base/backbone/implementation",
+        "backbone :: api" = "$BB/base/backbone/api",
+        "backbone :: documentation profile" = "$BB/base/backbone/documentation profile",
+        "backbone :: standard profile" = "$BB/base/backbone/standard profile",
+        "backbone :: backbone profile" = "$BB/base/backbone/backbone profile";
+}

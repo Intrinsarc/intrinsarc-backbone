@@ -1,0 +1,14 @@
+load-list
+{
+    variables:
+        "BB" = "C:/temp/BB",
+        "CC" = "C:/temp/BB";
+    directories:
+        "test" = "$BB/src/test",
+        "backbone" = "$BB/base/backbone",
+        "backbone :: implementation" = "$BB/base/backbone/implementation",
+        "backbone :: api" = "$BB/base/backbone/api",
+        "backbone :: documentation_profile" = "$BB/base/backbone/documentation profile",
+        "backbone :: standard_profile" = "$BB/base/backbone/standard profile",
+        "backbone :: backbone_profile" = "$BB/base/backbone/backbone profile";
+}
